@@ -34,14 +34,16 @@ java -jar test-citibanamex.jar
 ### headers 
 
 devuelve las cabeceras enviadas en la peticion
-HTTP request
+  
+HTTP request:
 ```
 GET localhost:8080/headers
 ```
 ![image](https://user-images.githubusercontent.com/16471614/120703267-b3692a00-c47a-11eb-99fc-958c2fa795b6.png)
 
 si deseamos que nos traiga una o varias cabeceras ene especifico, enviamos los nombres dentro del URI  
-HTTP request
+  
+HTTP request:
 ```
 GET localhost:8080/headers/{names}
 ```
@@ -51,8 +53,8 @@ GET localhost:8080/headers/{names}
 ### numbers
 
 elimina los numeros duplicados de la lista recibida  
-
-HTTP request
+  
+HTTP request:
 ```
 GET localhost:8080/numbers/no-duplicates/{numbers}
 ```
