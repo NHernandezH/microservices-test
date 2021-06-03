@@ -3,7 +3,7 @@ Prueba tecnica para el proceso con citibanamex
 
 ## Dependencias
 
-Java 8 o posteriores
+_Java 8 o posteriores_
 Maven 3.6.3 o posteriores
 
 ## Ejecucion de tests
@@ -17,7 +17,7 @@ mvn clean package
 
 ## Ejecucion
 
-Puede ejecutar el proyecto de dos formas:
+_Puede ejecutar el proyecto de dos formas:_
 Utilizando maven para arrancar el proyecto:
 
 ```
